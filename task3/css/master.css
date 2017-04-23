@@ -1,0 +1,36 @@
+#fixed-div {
+    padding: 0.5ex;
+    width: 100%;
+    background-color: white;
+    color: #078898;
+    font-size: 2em;
+    border-radius: 0.5ex;
+    border-bottom-color: #078898;
+    border-bottom-width: thin;
+    border-bottom-style: groove;
+    border-top-style: groove;
+}
+
+#fixed-div.fixed {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+#images {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+}
+
+body {
+    margin: 1em;
+    font-family: 'Quicksand', sans-serif !important;
+
+}
+
+p {
+    margin: 1em auto;
+}
